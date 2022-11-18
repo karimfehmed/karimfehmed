@@ -1,0 +1,70 @@
+.Main-Footer {
+  display: flex;
+  margin-top: 2vh;
+  justify-content: space-around;
+}
+.footer {
+  background-color: #156663;
+  color: white;
+}
+.footer p {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10vh;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-bottom: 5vh;
+}
+.Logo {
+  width: 25vw;
+  margin-top: 5vh;
+}
+.Logo img {
+  height: 13vh;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+.Logo h3 {
+  font-size: 25px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+.Logo b {
+  font-size: 15px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+.Contact {
+  width: 20vw;
+  margin-top: 5vh;
+}
+.Contact h5 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.Contact ul {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.Contact ul li {
+  padding-top: 10px;
+  font-size: 18px;
+}
+.socialmedia {
+  width: 15vw;
+  margin-top: 5vh;
+}
+.socialmedia h5 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.Icons {
+  display: flex;
+  gap: 20px;
+}
+.Icons i {
+  font-size: 35px;
+  padding-top: 5vh;
+}

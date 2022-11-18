@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Mainheader {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.logo {
+  display: flex;
+  margin-top: 2vh;
+}
+.logo img {
+  height: 13vh;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+.logoHead {
+  padding-top: 1vh;
+  padding-left: 1vw;
+}
+.logoHead .heading {
+  font-size: 26px;
+}
+.logoHead p {
+  word-spacing: 1px;
+  font-size: 17px;
+  padding-top: 5px;
+}
+.Lists ul {
+  display: flex;
+  margin-top: 5vh;
+}
+.Lists ul li {
+  margin-left: 3vw;
+  list-style: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.Lists ul li:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.Bookbutton {
+  margin-top: 5vh;
+}
+.Bookbutton button {
+  padding: 8px 20px 8px 20px;
+  background-color: #156663;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Bookbutton button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

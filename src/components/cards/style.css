@@ -1,0 +1,48 @@
+.Card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 80%;
+  gap: 20px;
+  margin: auto;
+  padding-top: 5vh;
+}
+.MainHeading h4 {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  margin-top: 5vh;
+  color: #156663;
+  padding-bottom: 2vh;
+}
+.cards {
+  width: 20vw;
+  background-color: #156663;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cards img {
+  width: 100%;
+  height: 270px;
+  padding-top: 10px;
+}
+.contex {
+  text-align: center;
+  font-size: 35px;
+  word-spacing: 2px;
+  padding-top: 5px;
+  color: white;
+}
+.contex button {
+  padding: 10px 25px 10px 25px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  background-color: #156663;
+  color: white;
+  border-color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
